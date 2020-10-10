@@ -12,4 +12,10 @@ public class UserController {
        {
            return "user--add!";
        }
+	   
+	          @GetMapping("delete")
+       public String delete()
+       {
+           return "user--delete!";
+       }
 }
