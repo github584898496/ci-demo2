@@ -18,4 +18,10 @@ public class UserController {
        {
            return "user--delete!";
        }
+	   
+	   @GetMapping("query")
+       public String query()
+       {
+           return "user--query!";
+       }
 }
