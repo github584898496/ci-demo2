@@ -10,18 +10,18 @@ public class UserController {
        @GetMapping("add")
        public String add()
        {
-           return "user--add!";
+           return "我修改下，恭喜您——user--add1!";
        }
 	   
-	          @GetMapping("delete")
+	   @GetMapping("delete")
        public String delete()
        {
-           return "user--delete!";
+           return "user--delete2!";
        }
 	   
 	   @GetMapping("query")
        public String query()
        {
-           return "user--query!";
+           return "user--query3!";
        }
 }
